@@ -1,14 +1,14 @@
 /*
   Colour Palette
   - Orange-Yellow: #FFAE00 - rgba(255,174,0,1.00)
-  - Light Blue: #02B8F9 - rgba(0,180,255,1.00)
+  - Light Blue: #00EBFF - rgba(0,180,255,1.00)
 */
 
 @charset "UTF-8";
 /* CSS Document */
 
 html {
-	font: normal 100%/1.5 Helvetica,serif; /*16px/24px* 16 x 1.5 = 24*/	
+	font: normal 100%/1.5 Helvetica; /*16px/24px* 16 x 1.5 = 24*/	
 }
 
 h1, h2, h3, h4, h4, h5, h6 {
@@ -16,51 +16,105 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 
 .yotta { /*for biggger text than h1 */
-	font-size: ;
+	font-size: 2.2807rem;
 	line-height: ;
 }
 
 .zetta {
-	font-size: ;
+	font-size: 2.0237rem;
 	line-height: ;
 }
 
 h1, .exa {
-	font-size: ;
+	font-size: 1.8020rem;
 	line-height: ;
 }
 
 h2, .peta {
-	font-size: ;
+	font-size: 1.6018rem;
 	line-height: ;
 }
 
 h3, .tera {
-	font-size: ;
+	font-size: 1.4238rem;
 	line-height: ;
 }
 
 h4, .giga {
-	font-size: ;
+	font-size: 1.2656rem;
 	line-height: ;
 }
 
 h5, .mega {
-	font-size: ;
+	font-size: 1.125;
 	line-height: ;
 }
 
 h6, .kilo {
-	font-size: ;
-	line-height: ;
+	font-size: 1rem;
+	line-height: 1.5000;
 }
 
 small, .milli { /*for smaller text than body copy, like copy right etc */
-	font-size: ;
+	font-size: .8889rem;
 	line-height: ;
 }
 
 .micro {
-	font-size: ;
+	font-size: .7901rem;
 	line-height: ;	
+}
+
+h1, h2, h3, h4, h5, h6, 
+.brand {
+	font-family: Helvetica,sans-serif;	
+	color: #FFAE00;
+}
+
+.brand-colour {
+	color: #FFAE00;
+}
+
+.brand-family {
+	font-family: Helvetica,sans-serif;
+}
+
+::selection {
+	background-color: 	#00EBFF;
+	color: #fff; /*makes the type not get over shadowed by the highlight*/
+}
+
+a,
+a:link {
+	color: #00EBFF;
+	text-decoration: none;
+	border-bottom: 0.1em solid rgba(100,200,100,0.5);	
+	transition: all 250ms linear;
+}
+
+a:visited {
+	color: #00EBFF;
+	border-bottom-color: rgba (100,150,100,0.5);	
+}
+
+a:hover,
+a:focus,
+a:active {
+	color:#00EBFF;
+	border-bottom-color: #F1B00E;	
+}
+
+ul {
+	list-style-type: none;		
+}
+
+ul li {
+	position: relative;	
+}
+
+ul li:before {
+	content:"♨";	
+	color: #999;
+	position: absolute;
+	left: -1em;
 }
