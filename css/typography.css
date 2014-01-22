@@ -1,0 +1,66 @@
+/*
+  Colour Palette
+  - Orange-Yellow: #FFAE00 - rgba(255,174,0,1.00)
+  - Light Blue: #02B8F9 - rgba(0,180,255,1.00)
+*/
+
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	font: normal 100%/1.5 Helvetica,serif; /*16px/24px* 16 x 1.5 = 24*/	
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+	margin: 0 0 1.25rem;	
+}
+
+.yotta { /*for biggger text than h1 */
+	font-size: ;
+	line-height: ;
+}
+
+.zetta {
+	font-size: ;
+	line-height: ;
+}
+
+h1, .exa {
+	font-size: ;
+	line-height: ;
+}
+
+h2, .peta {
+	font-size: ;
+	line-height: ;
+}
+
+h3, .tera {
+	font-size: ;
+	line-height: ;
+}
+
+h4, .giga {
+	font-size: ;
+	line-height: ;
+}
+
+h5, .mega {
+	font-size: ;
+	line-height: ;
+}
+
+h6, .kilo {
+	font-size: ;
+	line-height: ;
+}
+
+small, .milli { /*for smaller text than body copy, like copy right etc */
+	font-size: ;
+	line-height: ;
+}
+
+.micro {
+	font-size: ;
+	line-height: ;	
+}
