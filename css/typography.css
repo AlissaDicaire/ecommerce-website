@@ -88,20 +88,20 @@ a,
 a:link {
 	color: #00EBFF;
 	text-decoration: none;
-	border-bottom: 0.1em solid rgba(100,200,100,0.5);	
+	border-bottom: 0.1em solid rgba(0,180,255,1.00);	
 	transition: all 250ms linear;
 }
 
 a:visited {
 	color: #00EBFF;
-	border-bottom-color: rgba (100,150,100,0.5);	
+	border-bottom-color: rgba rgba(0,180,255,1.00);	
 }
 
 a:hover,
 a:focus,
 a:active {
 	color:#00EBFF;
-	border-bottom-color: #F1B00E;	
+	border-bottom-color: #FFAE00;	
 }
 
 ul {
