@@ -117,10 +117,11 @@ ul li:before {
 	color: #999;
 	position: absolute;
 	left: -1em;
+	color: orange;
 }
 
 th {
-  background-color: #B4CED4;
+  background-color: #63DAFF;
 
   text-align: left;
 }
@@ -128,5 +129,5 @@ th {
 th, td {
   padding: 0.25rem;
 
-  border: 1px solid #CEF1EC;
+  border: 3px solid #F9BF13;
 }
