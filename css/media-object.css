@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.media {
+	overflow: hidden; /* forced it to wrap around its children, or in english... it alows it to work */
+}
+
+.media-img { 	/* this makes the heading go beside the img, when the img is to the lieft */
+	float: left;
+	margin: 0 10px 0 0; 	
+}
+
+.media-img-reversed { /* to make the picture go to the right of the page */
+	float: right;
+	margin: 0 0 0 10px;	
+}
+
+.media-img-stacked { /*to make the text under the pic */
+	float: none;
+	margin: 0;
+}
+
+.media-body {
+	overflow: hidden;	
+}
