@@ -4,10 +4,28 @@
 footer {
 	background-color:rgba(255,166,54,1.00);
 	margin-top: 40rem;	
+	border-radius: 30px;
 }
 
 footer p {
 	color:rgba(29,139,255,1.00);	
+	background-color: rgba(196,232,255,1.00);
 }
 
-@media only screen 
+@media only screen and (min-width: 30em) {
+	
+	footer {
+		padding: 4rem;
+	}
+	
+}
+
+@media only screen and (min-width: 56em) {
+
+	img {
+		float: right;
+		overflow: hidden;
+	}
+
+}
+
