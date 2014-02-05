@@ -7,7 +7,7 @@
 }
 
 .product {
-	background-color: #B8FBFF;
+	background-color: #FFEBC7;
 	border-radius: 30px;
 	padding: 2em;	
 }
@@ -16,3 +16,10 @@
 	text-align: center;
 }
 
+h2 {
+	float: left;	
+}
+
+p {
+	float: left;	
+}
