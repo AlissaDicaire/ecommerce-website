@@ -9,6 +9,37 @@ h2 {
 	display: none;	
 }
 
+nav ul {
+	position:absolute;
+	width:100%;
+	height: 3rem;
+	top: 6rem;
+	text-align: center;
+	background-color: #F2E895; /* the line */
+	font-size: 1.5rem;
+}
+
+nav li {
+	display:inline; /* The navigations blocks & its position */
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+	display: inline-block;
+	height: 3rem;
+	margin-top: 0 2%;
+	padding: .8rem 3%;
+	color: #568692; /*the font colour*/
+	text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+	background-color: #FFF; /* the colour changes when cursor is over */ 
+}
+
 
 @media only screen and (min-width: 32em) {
 
