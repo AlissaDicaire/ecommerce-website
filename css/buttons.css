@@ -6,9 +6,9 @@
 .btn:visited {
 	dsplay: inline-block;
 	padding: 0.75em 1em;
-	background-color: #7932B4;
-	background-image: linear-gradient(to bottom, #7932B4, #571062);
-	border-radius: 6px;
+	background-color: #F9AA27;
+	background-image: linear-gradient(to bottom, #FBCF78, #FD9447);
+	border-radius: 15px;
 	box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 	border: 0;
 	color: #fff;
