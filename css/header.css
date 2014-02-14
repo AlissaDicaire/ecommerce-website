@@ -1,22 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
 
-h1 {
-	float: left;	
-}
-
 h2 {
 	display: none;	
 }
 
 nav ul {
-	position:absolute;
+	/*position:absolute;*/
 	width:100%;
-	height: 3rem;
-	top: 6rem;
+	/*height: 3rem;*/
+	/*top: 8rem;*/
 	text-align: center;
 	background-color: #F2E895; /* the line */
 	font-size: 1.5rem;
+	padding: 0;
 }
 
 nav li {
@@ -40,8 +37,127 @@ nav a:active {
 	background-color: #FFF; /* the colour changes when cursor is over */ 
 }
 
+/* Toggle Nav CSS */
 
-@media only screen and (min-width: 32em) {
+.hide-text {
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+}
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+	display: block;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 16px;	
+	right: 5%;
+	
+	background: #FFB028 url('../images/nav-icon.svg') no-repeat center center;
+	/* background-color || background-image || background-repeat || background-position*/
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active{
+	background-color: #00DCFA;
+}
+
+.nav ul {
+	width:100%;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.nav li {
+	display: block; /* The navigations blocks & its position */
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+	background-color: #96F1F9; /* the line */
+
+	display: block; /* The navigations blocks & its position */
+	height: 3rem;
+	margin-top: 0 2%;
+	padding: .8rem 3%;
+	color: #FFF; /*the font colour*/
+	text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+	background-color: #FFA849; /* the colour changes when cursor is over */ 
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active, 
+.active{
+	background-color: #C91417; /* the colour changes when cursor is over */ 
+}
+
+.nav-top{
+	display: none;
+}
+
+.nav-top[data-state="expanded"]{
+	display: block;
+	/*position: relative;
+	margin-left: -3rem;*/
+
+}
+
+@media only screen and (min-width: 21em) {
+
+	.nav {
+		background-image: url(../images/navtexture.png);
+		width:100%;
+		/*height: 3rem;*/
+		text-align: center;
+		font-size: 1rem;
+	}
+	
+	.nav a:hover,
+	.nav a:focus,
+	.nav a:active {
+		background-color: #FFB923; /* the colour changes when cursor is over */ 
+	}
+}
+
+
+@media only screen and (min-width: 26em) {
+
+	.nav ul {
+		top: 4rem;
+	}
+	
+	.nav li {
+		display:inline; /* The navigations blocks & its position */
+	}
+
+	.nav-btn, .nav-btn:link {
+		visibility: hidden;
+	}
+	
+	.nav-top{
+		display: block;
+	}
+	
+		.nav a,
+	.nav a:link,
+	.nav a:visited {
+		display: inline-block;
+		height: 3rem;
+		margin-top: 0 2%;
+		padding: .8rem 3%;
+		color: #000; /*the font colour*/
+		text-decoration: none;
+	}
 
 
 }

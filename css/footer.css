@@ -2,14 +2,21 @@
 /* CSS Document */
 
 footer {
-	background-color:rgba(255,166,54,1.00);
-	margin-top: 40rem;	
+	background-color:rgba(175,244,255,1.00);
 	border-radius: 30px;
+	overflow: hidden;
+	margin-top: 1rem;
+}
+
+footer a, 
+footer a:link,
+footer a:visited {
+	border: 0;	
 }
 
 footer p {
 	color:rgba(29,139,255,1.00);	
-	background-color: rgba(196,232,255,1.00);
+	padding: 1rem;
 }
 
 @media only screen and (min-width: 30em) {
@@ -24,7 +31,7 @@ footer p {
 
 	img {
 		float: right;
-		overflow: hidden;
+		
 	}
 
 }
