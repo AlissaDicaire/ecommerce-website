@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-	<title>Candles</title>
+	<title>{{page.title}}·Candles</title>
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1" >
@@ -24,9 +24,6 @@
 	
 	<h1>The Candle Company</h1>
 	
-	<h2>...Every scent to enrich every room in your house.</h2>
-	
-	
 		<form id="tfnewsearch" method="get" action="http://www.google.com">
 		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
 		</form>
@@ -37,14 +34,22 @@
 	
 	<nav>			
 			<ul class="list-group nav nav-top data-state="collapsed"">
-				<li class="list-group-item list-group-item-inline"><a href="{{site.baseurl}}/">Home</a></li>
-				<li class="list-group-item list-group-item-inline"><a href="{{site.baseurl}}/about">About</a></li>
-				<li class="list-group-item list-group-item-inline"><a href="{{site.baseurl}}/thank-you">Thank You</a></li>
+				<li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a>
+				<li class="list-group-item list-group-item-inline"><a class="{% if page.url contains 'about' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>
+				<li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/thank-you/">Thank You</a>
 			
 			</ul>			
 		</nav>
+		
+		<img src="../images/Banner.jpg" alt="#">
 
 </header>
+
+{% if page.showbanner %}
+<div class="banner">
+	<h2>{{page.bannertext}}</h2>
+</div>
+{% endif %}
 
 {{content}}
 
@@ -61,7 +66,6 @@
 </footer>
 
 <script src="../js/nav.js"></script>
-
 
 <body>
 </body>
