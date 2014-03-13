@@ -5,6 +5,13 @@ header {
 	background-color: rgba(249,243,185,1.00);	
 }
 
+.logo {
+	width: 20%;
+	float: left;
+	position: relative;
+	bottom: 3rem;
+}
+
 nav ul {
 	/*position:absolute;*/
 	width:100%;
