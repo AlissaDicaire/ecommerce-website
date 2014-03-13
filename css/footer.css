@@ -2,7 +2,7 @@
 /* CSS Document */
 
 footer {
-	background-color:rgba(175,244,255,1.00);
+	background-color:#2BB4B4;
 	border-radius: 10px;
 	overflow: hidden;
 	margin-top: 1rem;
@@ -15,7 +15,7 @@ footer a:visited {
 }
 
 footer p {
-	color:rgba(29,139,255,1.00);	
+	color:hsla(44,96%,53%,1.00);	
 }
 
 @media only screen and (min-width: 25em) {

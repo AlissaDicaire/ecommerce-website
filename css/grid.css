@@ -96,6 +96,7 @@
 .unit-m-hidden {
   display: none;
   visibility: hidden;
+  padding-left: 1rem;
 }
 
 .unit-m-1 {

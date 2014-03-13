@@ -1,8 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	background-image:;	
+}
+
 header {
-	background-color: rgba(249,243,185,1.00);	
+	background-color: rgba(250, 238, 120, 1);	
 }
 
 .logo {
@@ -18,8 +22,8 @@ nav ul {
 	/*height: 3rem;*/
 	/*top: 8rem;*/
 	text-align: center;
-	background-color: #F2E895; /* the line */
-	font-size: 1.5rem;
+	background-color: #2BB4B4; /* the line */
+	font-size: 2rem;
 	padding: 0;
 }
 
@@ -85,13 +89,13 @@ overflow: hidden;
 .nav a,
 .nav a:link,
 .nav a:visited {
-	background-color: #96F1F9; /* the line */
+	background-color: #F7E8BB; /* the line */
 
 	display: block; /* The navigations blocks & its position */
-	height: 3rem;
+	height: 2rem;
 	margin-top: 0 2%;
 	padding: .8rem 3%;
-	color: #FFF; /*the font colour*/
+	color: rgba(0,167,248,1.00); /*the font colour*/
 	text-decoration: none;
 }
 
@@ -119,10 +123,16 @@ nav a:active,
 
 }
 
+.current,
+.current:link,
+.current:visited{
+	color: orange;
+	
+}
+
 @media only screen and (min-width: 21em) {
 
 	.nav {
-		background-image: url(../images/navtexture.png);
 		width:100%;
 		/*height: 3rem;*/
 		text-align: center;
@@ -155,15 +165,18 @@ nav a:active,
 		display: block;
 	}
 	
-		.nav a,
+	.nav a,
 	.nav a:link,
 	.nav a:visited {
 		display: inline-block;
-		height: 3rem;
+		height: 2rem;
 		margin-top: 0 2%;
 		padding: .8rem 3%;
 		color: #000; /*the font colour*/
 		text-decoration: none;
+		border-radius: 10px;
+		border: 10px rgba(68,177,242,1.00);
+		color: hsla(199, 82%, 49%, 1);
 	}
 
 

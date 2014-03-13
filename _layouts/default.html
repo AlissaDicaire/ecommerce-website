@@ -24,6 +24,8 @@
 	
 	<h1>Bee's Candles</h1>
 	
+		<img class="logo" src="../images/logo-practice.svg" alt="">
+	
 		<form id="tfnewsearch" method="get" action="http://www.google.com">
 		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
 		</form>
@@ -34,14 +36,12 @@
 	
 	<nav>			
 			<ul class="list-group nav nav-top data-state="collapsed"">
-				<li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a>
-				<li class="list-group-item list-group-item-inline"><a class="{% if page.url contains 'about' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>
-				<li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/thank-you/">Thank You</a>
+				<li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/' %}current{% endif%}" href="{{site.baseurl}}/">Home</a>
+				<li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/about/' %}current{% endif%}" href="{{site.baseurl}}/about/">About</a>
+				<li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/' %}current{% endif%}" href="{{site.baseurl}}/thank-you/">Thank You</a>
 			
 			</ul>			
 		</nav>
-		
-		<img class="logo" src="../images/logo-practice.svg" alt="">
 
 </header>
 
@@ -59,7 +59,7 @@
 	<a href="https://twitter.com/"><img src="../images/twitter.png" alt="Twitter">
 	<a href="https://www.stumbleupon.com/return"><img src="../images/stumbleupon.png" alt="Stumbleupon">
 	
-	<p>© Copy Right Bee's Candles. All Rights reserved.</p> 
+	<p>© Copy Right Bees Candles. All Rights reserved.</p> 
 
 </footer>
 
