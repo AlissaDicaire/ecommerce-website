@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
-h2 {
-	display: none;	
+header {
+	background-color: rgba(249,243,185,1.00);	
 }
 
 nav ul {
@@ -164,9 +164,13 @@ nav a:active,
 
 @media only screen and (min-width: 42em) {
 	
-	h2 {
-		display: block;
-	}
 	
-	
+}
+
+.banner {
+	background: rgba(59,203,187,1.00) url("../images/banner.jpg") no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	padding: 5rem 3rem 3rem;
+	margin-top: 1rem;
 }
