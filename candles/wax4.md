@@ -1,0 +1,17 @@
+---
+layout: default
+category: wax
+title: Cinnamon Candle
+image: wax4.jpg
+h2: Autumn Leaves
+---
+
+If you're looking for a candle that reminds you of the crisp, colourful days of the fall, this is the candle for you.  
+
+**Price:** $8.99 
+
+##Features
+
+- Made in Canada
+- Burns for 5 to 6 hours
+ 
