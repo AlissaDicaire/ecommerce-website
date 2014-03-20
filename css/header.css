@@ -123,12 +123,6 @@ nav a:active,
 
 }
 
-.current,
-.current:link,
-.current:visited{
-	color: orange;
-	
-}
 
 @media only screen and (min-width: 21em) {
 
@@ -193,4 +187,12 @@ nav a:active,
 	text-align: center;
 	padding: 5rem 3rem 3rem;
 	margin-top: 1rem;
+}
+
+
+.nav .current,
+.nav .current:link,
+.nav .current:visited{
+	color: orange;
+	
 }

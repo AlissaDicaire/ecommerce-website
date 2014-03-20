@@ -1,0 +1,16 @@
+---
+layout: default
+title: Shop
+showbanner: yes
+bannertext: Start Your Shopping!
+---
+
+<h1>Pick between Bee's Wax or Regular Wax:</h1>
+
+<nav>			
+	<ul class="list-group nav nav-top data-state="collapsed"">
+		<li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/bees/' %}current{% endif%}" href="../candles/{{site.baseurl}}/bees">Bees</a>
+	<li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/Wax/' %}current{% endif%}" href="../candles/{{site.baseurl}}/wax">Wax</a>
+			
+	</ul>			
+</nav>
