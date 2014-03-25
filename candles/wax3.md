@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: candles
 category: wax
 title: Cranberry Candle
 image: wax3.jpg

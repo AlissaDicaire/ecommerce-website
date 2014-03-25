@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: candles
 category: bees
 title: Glass Jar Candle
 image: bees-candle3.jpg

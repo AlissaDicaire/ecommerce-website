@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: candles
 category: bees
 title: Double Beeswax Candle's
 image: bees-candle1.jpg

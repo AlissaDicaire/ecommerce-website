@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: candles
 category: bees
 title: Bee Hive Candle
 image: bees-candle2.jpg

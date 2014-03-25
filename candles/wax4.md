@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: candles
 category: wax
 title: Cinnamon Candle
 image: wax4.jpg

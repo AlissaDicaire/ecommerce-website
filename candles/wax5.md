@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: candles
 category: wax
 title: Olive Candle
-image: wax4.jpg
+image: wax5.jpg
 h2: Step into the smell of an Olive Garden
 ---
 

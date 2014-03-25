@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: candles
 category: bees
 title: Square Decorative Candle
 image: bees-candle4.jpg

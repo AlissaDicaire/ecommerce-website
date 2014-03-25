@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: candles
 category: bees
 title: Twist Candle
-image: bees-candle4.jpg
+image: bees-candle5.jpg
 h2: Watch it burn in a circle
 ---
 
