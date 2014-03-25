@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: candles
 category: wax
 title: Pine Candle
 image: wax1.jpg

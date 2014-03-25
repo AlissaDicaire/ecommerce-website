@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: candles
 category: wax
 title: Vanilla Candle
 image: wax2.jpg

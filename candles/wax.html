@@ -18,8 +18,8 @@ layout: default
 	{% for candle in site.pages %}
 		{% if candle.category == 'wax' %}
 	<li>
-		<a href="{{site.baseurl}}{{wax.url}}">
-		<img src="{{site.baseurl}}/images/{{purple-candle.jpg}}" alt="">
+		<a href="{{site.baseurl}}{{candle.url}}">
+		<img src="{{site.baseurl}}/images/{{candle.image}}" alt="">
 		{{candle.title}}
 	</li>
 		{% endif %}

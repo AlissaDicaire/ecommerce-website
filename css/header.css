@@ -35,11 +35,11 @@ nav a,
 nav a:link,
 nav a:visited {
 	display: inline-block;
-	height: 3rem;
+	height: 1rem;
 	margin-top: 0 2%;
 	padding: .8rem 3%;
-	color: #568692; /*the font colour*/
-	text-decoration: none;
+	color: #147CF9; /*the font colour*/
+	text-align: center;
 }
 
 nav a:hover,
@@ -109,7 +109,7 @@ nav a:hover,
 nav a:focus,
 nav a:active, 
 .active{
-	background-color: #C91417; /* the colour changes when cursor is over */ 
+	background-color: #F9DE28; /* the colour changes when cursor is over */ 
 }
 
 .nav-top{

@@ -2,12 +2,11 @@
 /* CSS Document */
 
 #tfheader{
-	background-color:#AAFBFF;
+	background-color: #C9282B;
 	border-radius: 15px;
 }
 
 #tfnewsearch{
-	float:right;
 	padding:20px;
 }
 	
@@ -52,4 +51,13 @@
 
 .tfclear{
 	clear:both;
+}
+
+@media only screen and (min-width: 42em) {
+	
+	#tfheader{
+		background-color:#AAFBFF;
+		border-radius: 15px;
+	}	
+
 }
