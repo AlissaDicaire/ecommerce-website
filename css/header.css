@@ -10,10 +10,8 @@ header {
 }
 
 .logo {
-	width: 20%;
-	float: left;
 	position: relative;
-	bottom: 3rem;
+	margin: 0 auto;
 }
 
 nav ul {
@@ -176,9 +174,31 @@ nav a:active,
 
 }
 
-@media only screen and (min-width: 42em) {
+@media only screen and (min-width: 35em) {
 	
+	.logo {
+		position: relative;
+		padding-left: 13rem;
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 45em) {
 	
+	.logo {
+		position: relative;
+		padding-left: 25rem;
+		width: 20%;
+	}
+}
+
+@media only screen and (min-width: 80em) {
+	
+	.logo {
+		position: relative;
+		padding-left: 35rem;
+		width: 20%;
+	}
 }
 
 .banner {

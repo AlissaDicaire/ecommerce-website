@@ -20,13 +20,11 @@
 
 <header>
 
+<img class="logo" src="{{site.baseurl}}/images/logo.svg" alt="">
+
 	<div id="tfheader">
 	
-	<h1>Bee's Candles</h1>
-	
-		<!--<img class="logo" src="../images/logo-practice.svg" alt=""> -->
-	
-		<form id="tfnewsearch" method="get" action="http://www.google.com">
+		<form id="tfnewsearch" method="get" action="{{site.baseurl}}/search/">
 		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
 		</form>
 	<div class="tfclear"></div>
@@ -39,7 +37,6 @@
 				<li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/' %}current{% endif%}" href="{{site.baseurl}}/">Home</a>
 				<li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/shop/' %}current{% endif%}" href="{{site.baseurl}}/shop/">Shop</a>
 				<li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/about/' %}current{% endif%}" href="{{site.baseurl}}/about/">About</a>
-				<li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/thank-you/' %}current{% endif%}" href="{{site.baseurl}}/thank-you/">Thank You</a>
 			
 			</ul>			
 		</nav>

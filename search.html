@@ -1,1 +1,48 @@
+---
+layout: default
+showbanner: yes
+---
 
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 uit-l-1-3">
+		<h1>Bee's Wax</h1>
+	</div>
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
+	</div>
+</div>
+
+<ul>
+	{% for candle in site.pages %}
+		{% if candle.category == 'bees' %}
+	<li>
+		<a href="{{site.baseurl}}{{candle.url}}">
+		
+		{{candle.title}}
+	</li>
+		{% endif %}
+	{% endfor %}	
+</ul>
+
+<!-- ------------------------------------------------------------------  -->
+
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 uit-l-1-3">
+		<h1>Regular Wax</h1>
+	</div>
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
+	</div>
+</div>
+
+<ul>
+	{% for candle in site.pages %}
+		{% if candle.category == 'wax' %}
+	<li>
+		<a href="{{site.baseurl}}{{dino.url}}">
+	
+		{{candle.title}}
+	</li>
+		{% endif %}
+	{% endfor %}	
+</ul>
+
+<a class="btn mili {% if page.url == '/' %}current{% endif%}" href="{{site.baseurl}}/">Back Home</a>
