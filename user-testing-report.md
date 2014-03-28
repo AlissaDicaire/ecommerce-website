@@ -33,27 +33,27 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### Nichole Verio
 
-- {She clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- {She clicked shop which lead her to the two choices and she clicked on Bees and found the beehive picture}
+- {She didn't have any problems deciding whether it would be under bees or wax}
+- {She didn't ask any questions}
+- {It was fast and she was able to purchase the candle without any problems}
+
 
 ---
 
 ## Trends
 
+- {2 out of 3 people browsed my home page first but I feel like that was just because that was page that it started on}
+
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
-- etc.
+- There were no tasks that were unable to complete.
+
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- {Two of the participants succeeded where one of them failed…}
-- etc.
+- None
 
 ### Minor, Annoying, Won’t Hinder Completion
 
-- {Participants pointed out this inconsistency…}
-- etc.
+- None
