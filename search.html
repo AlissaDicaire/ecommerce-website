@@ -15,7 +15,7 @@ showbanner: yes
 	{% for candle in site.pages %}
 		{% if candle.category == 'bees' %}
 	<li>
-		<a href="{{site.baseurl}}{{candle.url}}">
+		<a href="{{site.baseurl}}{{candle.url}}" alt="bees">
 		
 		{{candle.title}}
 	</li>
@@ -37,7 +37,7 @@ showbanner: yes
 	{% for candle in site.pages %}
 		{% if candle.category == 'wax' %}
 	<li>
-		<a href="{{site.baseurl}}{{dino.url}}">
+		<a href="{{site.baseurl}}{{candle.url}}" alt="wax">
 	
 		{{candle.title}}
 	</li>
