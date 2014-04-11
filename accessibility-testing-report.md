@@ -11,7 +11,7 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ## Tasks
 
-1. {Find information on a pine scented candle}
+1. {Buy a pine scented candle and get back to the home page}
 2. {Buy a bees wax candle that has a twist to it}
 3. {Find a negative side affect to regualr wax candles}
 
@@ -60,6 +60,7 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 - { Many of the people had a hard time with the search field}
 - { Most had no problem, getting to where they were asked to go}
+- { Everyone was able to get back home after buying the candle}
 
 ### Serious, Causes Frustration, May Hinder Completion
 
