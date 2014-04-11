@@ -10,8 +10,6 @@
 {% include css/header.css %}
 {% include css/footer.css %}
 {% include css/product.css %}
-{% include css/product-list-item.css %}
-{% include css/embed.css %}
 {% include css/promos.css %}
 
 
