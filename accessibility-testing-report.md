@@ -22,16 +22,19 @@ User testing was conducted by {your name} on {specific date} between the times o
 ### {Martine Cormier}
 
 - {She had no problem finding a scented candle}
-- {The candles did get mixed up at one point}
+- {Going back home was the only problem}
+- {She had to wait a while to find the information}
 
 ### {Columbina Anzivino}
 
-- {When it came to picked bees or wax it was mixed up}
+- {She couldn't figure out which candle to pick from when she was on the shopping page}
+- {The search field didn't give her the right alt tag (it said "edit field"}
 
 
 ### {Stephen Pollock}
 
 - {Had no trouble}
+- {Again, when he went to find the search bar, it only said "edit text" and then "search button"}
 
 ### {Shawna Guy}
 
@@ -41,14 +44,13 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### {Jake Asiddao}
 
-- {Needed to redo it a couple of times}
+- {Needed to redo it a couple of times because he wasn't sure if the about page was the right one}
 
 
 ### {Gregory Leblanc}
 
 - {He was able to do everything}
-- {he only had trouble with the "back" buttons}
-
+- {he only had trouble with the "search field" but not the actual button}
 
 ---
 
@@ -56,14 +58,13 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- { Many of the people had a hard time with the back buttons}
+- { Many of the people had a hard time with the search field}
 - { Most had no problem, getting to where they were asked to go}
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- {Again, the back buttons were mixed up}
-- etc.
+- {Again, the search field was saying "edit text" instead of "search field"}
 
 ### Minor, Annoying, Won’t Hinder Completion
 
-- {A lot of people get confused between beeswax candles and regular wax candles}
+- {Some people get confused between beeswax candles and regular wax candles}
