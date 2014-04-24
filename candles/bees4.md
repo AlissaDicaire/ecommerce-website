@@ -1,7 +1,7 @@
 ---
 layout: candles
 category: bees
-title: Square Decorative Candle
+title: Decorative 
 image: bees-candle4.jpg
 h2: Fun Candle
 ---
@@ -18,5 +18,5 @@ This unique candle takes the shape of a square and is molded into an artistic mo
 - Made in Canada
 - Burns for 12 to 14 hours
 
-Click here to [Buy Now]({{site.baseurl}}/cart/).
+Click here to [Add to Cart]({{site.baseurl}}/cart/).
 

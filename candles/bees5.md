@@ -1,7 +1,7 @@
 ---
 layout: candles
 category: bees
-title: Twist Candle
+title: Twist 
 image: bees-candle5.jpg
 h2: Watch it burn in a circle
 ---
@@ -19,4 +19,4 @@ Not only a candle, but a very cool way to burn a candle. Holder holds the wax in
 - Burns for 10 to 11 hours
 - Art Piece
 
-Click here to [Buy Now]({{site.baseurl}}/cart/).
+Click here to [Add to Cart]({{site.baseurl}}/cart/).

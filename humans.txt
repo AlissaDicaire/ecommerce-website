@@ -1,0 +1,20 @@
+/* Team*/
+
+Designer & Developer: Alissa Dicaire
+Site: http://alissadicaire.github.io/ecommerce-website/
+Twitter: @AlissaDicaire
+Linkedin: http://www.linkedin.com/pub/alissa-dicaire/49/387/706
+Location: Ottawa, Canada
+
+
+
+/* THANKS */
+
+Thanks to Thomas Bradley for teaching Jekyll
+
+
+/* SITE */
+Last update: 04/24/2014
+Standards: HTML5, CSS3, Jekyll, MD, Javascript, Github
+Components: Media Query
+Software: Adobe, Livereload, Dreamweaver, Github

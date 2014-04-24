@@ -11,17 +11,18 @@ showbanner: yes
 	</div>
 </div>
 
-<ul>
+
 	{% for candle in site.pages %}
 		{% if candle.category == 'bees' %}
-	<li>
+
 		<a href="{{site.baseurl}}{{candle.url}}" alt="bees">
+		<img src="{{site.baseurl}}/images/{{candle.image}}" alt="beeswax">
 		
 		{{candle.title}}
-	</li>
+
 		{% endif %}
 	{% endfor %}	
-</ul>
+
 
 <!-- ------------------------------------------------------------------  -->
 
@@ -33,16 +34,16 @@ showbanner: yes
 	</div>
 </div>
 
-<ul>
+
 	{% for candle in site.pages %}
-		{% if candle.category == 'wax' %}
-	<li>
+
 		<a href="{{site.baseurl}}{{candle.url}}" alt="wax">
+		<img src="{{site.baseurl}}/images/{{candle.image}}" alt="wax">
 	
 		{{candle.title}}
-	</li>
+
 		{% endif %}
 	{% endfor %}	
-</ul>
+
 
 <a class="btn mili {% if page.url == '/' %}current{% endif%}" href="{{site.baseurl}}/">Back Home</a>

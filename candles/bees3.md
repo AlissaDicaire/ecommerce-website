@@ -1,7 +1,7 @@
 ---
 layout: candles
 category: bees
-title: Glass Jar Candle
+title: Glass Jar
 image: bees-candle3.jpg
 h2: Bees Glass Candle
 ---
@@ -19,4 +19,4 @@ The candle comes molded in a glass holder.
 - Burns for 15 to 16 hours
 - Safer than candles without jar
 
-Click here to [Buy Now]({{site.baseurl}}/cart/).
+Click here to [Add to Cart]({{site.baseurl}}/cart/).

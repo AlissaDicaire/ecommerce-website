@@ -1,7 +1,7 @@
 ---
 layout: candles
 category: wax
-title: Cranberry Candle
+title: Cranberry
 image: wax3.jpg
 h2: The smell of Spring
 ---
@@ -18,4 +18,4 @@ If you're looking for a candle that reminds you of Spring, this is the candle fo
 - Burns for 5 to 6 hours
 - Made with natural fruit oils 
 
-Click here to [Buy Now]({{site.baseurl}}/cart/).
+Click here to [Add to Cart]({{site.baseurl}}/cart/).

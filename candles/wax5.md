@@ -1,7 +1,7 @@
 ---
 layout: candles
 category: wax
-title: Olive Candle
+title: Olive 
 image: wax5.jpg
 h2: Step into the smell of an Olive Garden
 ---
@@ -19,4 +19,4 @@ When lit, this scent will transfer you into an olive garden, full of the rich sm
 - Made with natural Olive Oil
 - Plant based materials
 
-Click here to [Buy Now]({{site.baseurl}}/cart/).
+Click here to [Add to Cart]({{site.baseurl}}/cart/).

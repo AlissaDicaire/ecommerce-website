@@ -1,7 +1,7 @@
 ---
 layout: candles
 category: bees
-title: Bee Hive Candle
+title: Bee Hive
 image: bees-candle2.jpg
 h2: Bee Hive
 ---
@@ -18,4 +18,4 @@ This candle is 100% beeswax, shaped into the form of a bee hive. Placed on glass
 - Made in Canada
 - Burns for 13 to 14 hours
 
-Click here to [Buy Now]({{site.baseurl}}/cart/).
+Click here to [Add to Cart]({{site.baseurl}}/cart/).

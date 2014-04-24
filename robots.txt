@@ -1,0 +1,10 @@
+# Hashes are comments
+
+
+# http://www.robotstxt.org
+
+Sitemap: http://alissadicaire.github.io/ecommerce-website/sitemap.xml
+
+User-agent:  Alissa Dicaire
+
+Disallow: /assets/

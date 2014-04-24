@@ -5,7 +5,7 @@ showbanner: yes
 
 
 <a class="btn mili {% if page.url == '/shop/' %}current{% endif%}" href="{{site.baseurl}}/shop/" alt="candle">Back</a> 
-<div class="grid">
+<div>
 	<div class="unit unit-s-1 unit-m-1-2 uit-l-1-3">
 		<h1>Regular Wax</h1>
 	</div>
@@ -14,15 +14,15 @@ showbanner: yes
 	</div>
 </div>
 
-<ul>
+
 	{% for candle in site.pages %}
 		{% if candle.category == 'wax' %}
-	<li>
+
 		<a href="{{site.baseurl}}{{candle.url}}" alt="wax">
 		<img src="{{site.baseurl}}/images/{{candle.image}}" alt="wax">
 		{{candle.title}}
-	</li>
+
 		{% endif %}
 	{% endfor %}	
-</ul>
+
 

@@ -1,7 +1,7 @@
 ---
 layout: candles
 category: bees
-title: Double Beeswax Candle's
+title: Double
 image: bees-candle1.jpg
 h2: Smooth Bee's Wax Candle
 ---
@@ -20,4 +20,4 @@ These candles are made with 100% beeswax, rolled into the shape of a candle. The
 - Burns for 15 to 16 hours
 - You get two candles
 
-Click here to [Buy Now]({{site.baseurl}}/cart/).
+Click here to [Add to Cart]({{site.baseurl}}/cart/).
