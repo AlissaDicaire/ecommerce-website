@@ -36,6 +36,7 @@ showbanner: yes
 
 
 	{% for candle in site.pages %}
+		{% if candle.category == 'bees' %}
 
 		<a href="{{site.baseurl}}{{candle.url}}" alt="wax">
 		<img src="{{site.baseurl}}/images/{{candle.image}}" alt="wax">
